@@ -1,0 +1,64 @@
+.home-page {
+  background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+
+  #banner {
+    padding: 20rem 4rem;
+    .content1 {
+      font-size: 3rem;
+    }
+    .buy {
+      button {
+        background-color: #fe4c50;
+        width: 7rem;
+        height: 3rem;
+        color: white;
+      }
+    }
+  }
+  .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10rem;
+
+    .image-inner{
+        width: 30%;
+        padding: 100px;
+        background: url("https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        span{
+            padding: 10px 10px;
+            background-color: #fff;
+            font-size: 20px;
+        }
+
+        &:nth-child(2){
+            background: url("https://preview.colorlib.com/theme/coloshop/images/banner_2.jpg");
+           
+        }
+        &:nth-child(3){
+            background: url("https://preview.colorlib.com/theme/coloshop/images/banner_3.jpg");
+           
+        }
+    }
+    
+  }
+  .new{
+    h1{
+      padding: 5rem ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+  }
+}
